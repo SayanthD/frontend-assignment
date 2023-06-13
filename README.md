@@ -1,5 +1,9 @@
 # Frontend Assignment
 
+![ss](./ss.PNG)
+
+Deployed on [https://frontend-assignment-cards.netlify.app/](https://frontend-assignment-cards.netlify.app/)
+
 ## Instructions 
 
 In the project directory, you can run:
