@@ -17,10 +17,10 @@ function App() {
           <TabContent />
         </TabPanel>
         <TabPanel>
-          <TabContent />
+
         </TabPanel>
         <TabPanel>
-          <TabContent />
+
         </TabPanel>
       </Tabs>
     </div>

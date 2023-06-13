@@ -47,7 +47,7 @@ class TabContent extends Component {
                             <div className="col">
                                 <div className="card h-100">
                                     <div className="card-body">
-                                        <h5 className="card-title">{card.name}</h5> <p style={{"font-size": "15px"}}>{card.card_type}</p>
+                                        <h5 className="card-title">{card.name}</h5> <p className="topright">{card.card_type}</p>
                                         <p className="card-text">
                                             {card.card_type === "burner"?
                                             <p>Expiry: {card.expiry}</p>:

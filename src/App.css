@@ -40,11 +40,6 @@
     background: #39A2DB;
 }
 
-.react-tabs__tab--disabled {
-    color: GrayText;
-    cursor: default;
-}
-
 .react-tabs__tab-panel {
     display: none;
 }
@@ -53,4 +48,16 @@
     display: block;
     font-size: 2rem;
     text-align: center;
+}
+
+.topright {
+    font-size: medium;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: right;
+}
+
+div > p.card-text {
+    font-size: large;
 }
