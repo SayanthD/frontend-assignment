@@ -17,7 +17,7 @@ after that run:
 
 This will start a mock server to handle the data
 
-Next open a new terminal and run the following
+## Next open a new terminal and run the following
 
 ### `npm start`
 
