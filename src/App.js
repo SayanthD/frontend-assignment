@@ -1,11 +1,14 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "./App.css";
-import TabContent from "./components/TabContent";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Your from "./components/Your"
+import All from "./components/All"
+import Blocked from "./components/Blocked"
 
 function App() {
   return (
     <div className="App">
+      <h2>Cards</h2>
       <Tabs className="Tabs">
         <TabList>
           <Tab>Your</Tab>
@@ -13,15 +16,16 @@ function App() {
           <Tab>Blocked</Tab>
         </TabList>
 
-        <TabPanel>
-          <TabContent />
-        </TabPanel>
-        <TabPanel>
+            <TabPanel>
+              <Your />
+            </TabPanel>
+            <TabPanel>
+              <All />
+            </TabPanel>
+            <TabPanel>
+              <Blocked />
+            </TabPanel>
 
-        </TabPanel>
-        <TabPanel>
-
-        </TabPanel>
       </Tabs>
     </div>
   );

@@ -13,6 +13,12 @@ In the project directory, you can run:
 This will install the required packages,
 after that run:
 
+### `npm run server`
+
+This will start a mock server to handle the data
+
+Next open a new terminal and run the following
+
 ### `npm start`
 
 Runs the app in the development mode.\
