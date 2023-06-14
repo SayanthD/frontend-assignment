@@ -18,7 +18,7 @@ const Blocked = () => {
                             <div className="col-sm-6">
                                 <div className="card h-100 text-start">
                                     <div className="card-body">
-                                        <h6 className="card-title">{card.name}</h6> <p className="topright">{card.card_type}</p>
+                                        <h5 className="card-title">{card.name}</h5> <p className="topright">{card.card_type}</p>
                                         <p className="card-text">
                                             <p>{card.budget_name}</p>
                                             <p>Spent: {card.spent.value} {card.spent.currency}</p>
